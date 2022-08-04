@@ -447,19 +447,20 @@ function winning(){
     //done:)
 }
 
-function finish(){    
-    document.getElementById(0).hidden = true;
-    document.getElementById(1).hidden = true;
-    document.getElementById(2).hidden = true;
-    document.getElementById(3).hidden = true;
-    document.getElementById(4).hidden = true;
-    document.getElementById(5).hidden = true;
-    document.getElementById(6).hidden = true;
-    document.getElementById(7).hidden = true;
-    document.getElementById(8).hidden = true;
+document.getElementById(0).style.opacity = "0.5";
+    document.getElementById(1).style.opacity = "0.5";
+    document.getElementById(2).style.opacity = "0.5";
+    document.getElementById(3).style.opacity = "0.5";
+    document.getElementById(4).style.opacity = "0.5";
+    document.getElementById(5).style.opacity = "0.5";
+    document.getElementById(6).style.opacity = "0.5";
+    document.getElementById(7).style.opacity = "0.5";
+    document.getElementById(8).style.opacity = "0.5";
     var button_color = document.getElementById("button_start_stop");
+    setTimeout(function(){
+        startGame();
+      }, 3000);
     button_color.style.backgroundColor='Yellow';
-}
 /*
 if(document.getElementById(2).src!='http://127.0.0.1:5500/ancientgames/images/bg003.png'){alert(document.getElementById(2).src)}
 */
