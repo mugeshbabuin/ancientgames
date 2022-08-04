@@ -1,5 +1,5 @@
 var start = 0;
-var root = location.protocol + '//' + location.host+'/kattam/';
+var root = location.protocol + '//' + location.host+'/kattam';
 if(location.pathname=='/'){
     var root = location.protocol + '//' + location.host;
 } else if(location.pathname=='kattam/'){
