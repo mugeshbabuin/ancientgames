@@ -1,11 +1,11 @@
 var start = 0;
-var root = location.protocol + '//' + location.host+'/mugeshbabu-map/ancientgames';
+var root = location.protocol + '//' + location.host+'/kattam/';
 if(location.pathname=='/'){
     var root = location.protocol + '//' + location.host;
-} else if(location.pathname=='ancientgames/'){
-    var root = location.protocol + '//' + location.host+'/ancientgames';
-} else if(location.pathname=='/ancientgames/'){
-    var root = location.protocol + '//' + location.host+'/ancientgames';
+} else if(location.pathname=='kattam/'){
+    var root = location.protocol + '//' + location.host+'/kattam';
+} else if(location.pathname=='/kattam/'){
+    var root = location.protocol + '//' + location.host+'/kattam';
 }
 
 function startGame(){
