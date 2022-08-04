@@ -447,7 +447,8 @@ function winning(){
     //done:)
 }
 
-document.getElementById(0).style.opacity = "0.5";
+function finish(){    
+    document.getElementById(0).style.opacity = "0.5";
     document.getElementById(1).style.opacity = "0.5";
     document.getElementById(2).style.opacity = "0.5";
     document.getElementById(3).style.opacity = "0.5";
@@ -461,6 +462,7 @@ document.getElementById(0).style.opacity = "0.5";
         startGame();
       }, 3000);
     button_color.style.backgroundColor='Yellow';
+}
 /*
 if(document.getElementById(2).src!='http://127.0.0.1:5500/ancientgames/images/bg003.png'){alert(document.getElementById(2).src)}
 */
