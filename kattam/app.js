@@ -3,9 +3,9 @@ var root = location.protocol + '//' + location.host+'/kattam/';
 if(location.pathname=='/'){
     var root = location.protocol + '//' + location.host;
 } else if(location.pathname=='kattam/'){
-    var root = location.protocol + '//' + location.host+'/kattam';
+    var root = location.protocol + '//' + location.host+'/kattam/';
 } else if(location.pathname=='/kattam/'){
-    var root = location.protocol + '//' + location.host+'/kattam';
+    var root = location.protocol + '//' + location.host+'/kattam/';
 }
 
 function startGame(){
